@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+:root {
+  --color-1: #004265;
+  --color-2: #960000;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: var(--color-2);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1vw;
+}
+header img {
+  margin: 1vw;
+}
+nav {
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  padding: 1vw;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  text-align: center;
+  width: 768px;
+  margin: auto;
+  display: grid;
+  grid-template-rows: repeat(3, min-content);
+}
+
+main h2 {
+  border-bottom: 1px solid black;
+  padding: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+footer {
+  margin: 0;
+  padding: 1vw;
+  background-color: var(--color-1);
+  color: #fff;
+  text-align: center;
+}
+
+footer p {
+  margin: 1vw;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 1vw;
+  padding-bottom: 1vw;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.card h3 {
+  background-color: var(--color-2);
+  margin: 0 auto 1vw auto;
+  padding: 1vw;
+}
+
+.card p {
+  color: #000;
+  text-align: start;
+  margin-left: 1vw;
+}
