@@ -1,5 +1,6 @@
 :root {
     --main-color: rgb(102, 1, 1);; /* Define a variable */
+    --dark-mode: #141313;
 }
 
 body {
@@ -145,7 +146,7 @@ footer p {
 
 /* Dark-mode */
 .main-dark {
-    background-color: #000;
+    background-color: var(--dark-mode);
     color: #fff;
 }
 .card-dark {
@@ -153,6 +154,6 @@ footer p {
     border-radius: 5px;
 }
 .body-dark {
-    background-color: #000;
+    background-color: var(--dark-mode);
 }
 
