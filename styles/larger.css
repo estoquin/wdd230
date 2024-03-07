@@ -1,3 +1,12 @@
+@media screen and (min-width: 800px){
+    .navigation a {
+        display: block;
+    }
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+}
+
 @media screen and (max-width: 800px) {
     nav {
         flex-direction: column;
