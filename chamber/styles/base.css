@@ -33,6 +33,8 @@ body {
 nav {
     background-color: var(--green-hard);
     height: 3.5rem;
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,15 +48,13 @@ nav {
 nav a {
     text-decoration: none;
     color: var(--white);
-    height: 100%;
-    width: 200px;
-    padding: 1rem;
+    width: 100%;
     transition: .5s;
+    padding: .5rem;
 }
 
 nav a:hover {
-    color: var(--green-soft);
-    transition: .5s;
+    background-color: #000000;
 }
 
 /* Nav End */
@@ -97,9 +97,9 @@ nav a:hover {
 }
 
 .hero-text a {
-    background-color: var(--green-soft);
+    background-color: var(--green-hard);
     text-decoration: none;
-    color: var(--green-hard);
+    color: var(--white);
     padding: 1vw 2vw 1vw 2vw;
     transition: .5s;
 }
@@ -221,7 +221,11 @@ nav a:hover {
 
 #uevent-more {
     font-style: italic;
-    color: var(--green-soft);
+    color: blue;
+}
+#uevent-more:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 /* Weather and events end */
@@ -261,7 +265,7 @@ nav a:hover {
 
 .service-description {
     font-style: italic;
-    color: var(--green-soft);
+    color: var(--green-hard);
 }
 
 /* Services Wrapper End */
@@ -300,12 +304,12 @@ nav a:hover {
 
 .member-name {
     font-size: 1.5rem;
-    color: var(--green-soft);
+    color: var(--green-hard);
 }
 
 .member-phrase {
     font-style: italic;
-    color: #767676;
+    color: #000000;
 }
 
 .member-email, .member-number, .member-link {
@@ -354,7 +358,7 @@ footer {
 }
 
 #footeraddress p {
-    color: var(--green-soft);
+    color: var(--white);
 }
 
 #footerlinks {
@@ -367,12 +371,12 @@ footer {
 #footerlinks a {
     text-decoration: none;
     font-size: 1.6rem;
-    color: var(--green-soft);
+    color: var(--white);
     transition: .5s;
 }
 
 #footerlinks a:hover {
-    color: var(--white);
+    color: var(--green-hard);
     transition: .5s;
 }
 
@@ -384,7 +388,7 @@ footer {
 
 footer p {
     margin: 0;
-    color: var(--green-medium);
+    color: var(--white);
 }
 
 /* Footer Ends */
