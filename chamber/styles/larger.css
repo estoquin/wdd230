@@ -3,7 +3,6 @@
     --green-medium: #273B09;
     --green-soft: #7B904B;
     --white:#fff;
-
     --heading-font: "Montserrat", sans-serif;
     --paragraph-font: "Montserrat", Helvetica, sans-serif;
 }
@@ -12,6 +11,9 @@
     #menu {
 		display: none;
 	}
+    #navlinks {
+        display: block;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -53,6 +55,7 @@
 }
 
 @media screen and (max-width: 800px) {
+
     /* Introduction */
     /* Introduction */
     /* Introduction */

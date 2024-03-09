@@ -1,8 +1,11 @@
 const hamButton = document.querySelector('#menu');
-const navigation = document.querySelector('.navigation');
+const navigation = document.querySelector('#navlinks');
+const navlink = document.querySelectorAll('.navlink');
 
 hamButton.addEventListener('click', () => {
-	console.log('Open menu')
-	navigation.classList.toggle('open');
 	hamButton.classList.toggle('open');	
+	navigation.classList.toggle('navmobile')
+	navlink.forEach((nl) => {
+		nl.classList.toggle('navlinkmobile')
+	})
 });
