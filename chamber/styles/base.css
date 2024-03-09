@@ -16,6 +16,8 @@ body {
 /* Nav Start */
 /* Nav Start */
 
+
+
 #logo1 {
     width: 2.5rem;
     margin-left: 2rem;
@@ -387,3 +389,43 @@ footer p {
 /* Footer Ends */
 /* Footer Ends */
 /* Footer Ends */
+
+/* Menu Start */
+/* Menu Start */
+/* Menu Start */
+
+/* #menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "\00d7";
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: #fff;
+    background-color: var(--green-hard);
+ 	position: absolute;
+    width: 25%;
+    padding: 0.25rem;
+    left: 10px;
+}
+
+.open .navlink {
+    display: block;
+    top: 100px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    z-index: 2;
+    width: 100vw;
+    flex-direction: column;
+    background-color: yellow;
+} */
+
+/* Menu Ends */
+/* Menu Ends */
+/* Menu Ends */
