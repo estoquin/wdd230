@@ -24,6 +24,7 @@ img {
     margin: auto;
     padding: 0;
     display: block;
+    animation: fade 15s;
 }
 
 @keyframes fade {
