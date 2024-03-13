@@ -17,15 +17,13 @@ header h1 {
 }
 
 main {
-    width: 920px;
     margin: auto;
 }
 
 img {
-    margin: 0;
+    margin: auto;
     padding: 0;
     display: block;
-    animation: fade 15s;
 }
 
 @keyframes fade {
