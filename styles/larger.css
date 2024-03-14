@@ -3,8 +3,11 @@
         display: block;
     }
     #menu {
-		display: none; /* hide hamburger button */
+		display: none;
 	}
+    .herotempletextmobile {
+        top: 240px;
+    }
 }
 
 @media screen and (max-width: 800px) {

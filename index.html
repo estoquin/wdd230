@@ -33,7 +33,7 @@
 <body>
     <header>
         <div id="header-img">
-            <img src="images/profile.jpeg" alt="">
+            <img id="profileimg" src="images/profile.jpeg" alt="">
             <span>Nicolas Estoquin</span>
         </div>
     </header>
@@ -46,6 +46,16 @@
         <a href="">Form</a>
     </nav>
     <main>
+        <div class="herotemple">
+            <div id="templetext" class="herotempletext">
+                <p>Provo City Temple</p>
+            </div>
+            <picture id="templeimg">
+                <source srcset="./images/temple-512.webp" media="(max-width:512px)">
+                <source srcset="./images/temple-1024.webp" media="(max-width:1024px)">
+                <img src="./images/temple-1366.webp" alt="Favorite temple">
+            </picture>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <hr>
         <div id="section-container">
