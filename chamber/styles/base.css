@@ -58,6 +58,10 @@ nav a:hover {
     background-color: #000000;
 }
 
+#logolink:hover {
+    background-color: var(--green-hard);
+}
+
 /* Nav End */
 /* Nav End */
 /* Nav End */
@@ -510,7 +514,11 @@ footer p {
     border: 1px solid rgb(144, 144, 144);
     border-radius: 50%;
 }
-
+#visitbox {
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: italic;
+}
 #maindiscover {
     margin: 1rem;
     display: grid;
@@ -538,7 +546,16 @@ footer p {
 .dscimg {
     margin-bottom: 1.5rem;
     border-radius: 5px;
+    transition: .2s;
     -webkit-box-shadow: 3px 3px 10px 0px rgba(179,179,179,1);
     -moz-box-shadow: 3px 3px 10px 0px rgba(179,179,179,1);
     box-shadow: 3px 3px 10px 0px rgba(179,179,179,1);
+}
+.dscimg:hover {
+    transform: scale(1.01);
+    filter: saturate(200%);
+    transition: .2s;
+    -webkit-box-shadow: 0px 0px 72px 10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 72px 10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 72px 10px rgba(0,0,0,0.75);
 }
