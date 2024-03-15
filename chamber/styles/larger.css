@@ -152,6 +152,26 @@
         margin-left: 0vw;
         text-align: center;
     }
+    /* Discover */
+    /* Discover */
+    /* Discover */
+    #maindiscover {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    #discoverimages{
+        grid-area: 1 / 1 / 2 / 2;  
+    }
+    #sidebar{
+        grid-area: 2 / 1 / 3 / 2;
+    }
+    /* Discover */
+    /* Discover */
+    /* Discover */
+
 }
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
