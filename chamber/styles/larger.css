@@ -126,16 +126,20 @@
         display: flex;
         flex-direction: column;
         text-align: start;
+        /* position: relative; */
         background-color: var(--green-medium);
         width: 100%;
         margin-top: 5vw;
         margin-bottom: 5vw;
         padding-top: 2.5vw;
         padding-bottom: 2.5vw;
-        padding: 2rem;
+        /* padding: 2rem; */
+
     }
     #footerlinks a {
         /* border: 1px solid var(--green-medium); */
+        margin: .25rem;
+        padding-left: 1.5rem;
     }
     footer hr {
         display: none;
