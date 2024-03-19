@@ -1,0 +1,48 @@
+:root {
+    --color-white: #fff;
+    --color-gray-soft:#abc0ff;
+    --color-gray: rgb(0, 17, 87);
+    --color-dark: #000527;
+    --uni-padding: 0.5rem;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    margin: auto;
+    width: 50vw;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 20px 10px rgba(209,209,209,1);
+    -moz-box-shadow: 0px 0px 20px 10px rgba(209,209,209,1);
+    box-shadow: 0px 0px 20px 10px rgba(209,209,209,1);
+}
+
+th, td {
+    border: 1px solid var(--color-gray);
+    padding: var(--uni-padding);
+}
+
+caption {
+    background-color: var(--color-dark);
+    padding: var(--uni-padding);
+    color: var(--color-white);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: bold;
+}
+
+th {
+    background-color: var(--color-gray);
+    color: var(--color-white);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--color-gray-soft);
+}
+
+tr:nth-child(even) {
+    background-color: var(--color-white);
+}
