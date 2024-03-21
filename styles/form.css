@@ -60,6 +60,16 @@
     box-shadow: 0px 0px 30px 0px rgba(194,194,194,1);
 }
 
+#ratingset {
+    display: flex;
+    /* background-color: blue; */
+    align-items: center;
+}
+#ratingset #rangevalue {
+    margin-top: 3px;
+    margin-left: 15px;
+}
+
 #passinfo {
     text-align: center;
     color: red;
