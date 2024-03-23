@@ -672,15 +672,15 @@ footer p {
 /*Alternative Base Plans*/
 /*Alternative Base Plans*/
 /*Alternative Base Plans*/
-/* #plangold {
+#plangold {
     background-color: #FFD700;
 }
-#plansivler {
+#plansilver {
     background-color: #C0C0C0;
 }
 #planbronze {
     background-color: #CD7F32;
-} */
+}
 /*Alternative Base Plans*/
 /*Alternative Base Plans*/
 /*Alternative Base Plans*/
@@ -688,7 +688,8 @@ footer p {
 /* Metal colors here */
 /* Metal colors here */
 /* Metal colors here */
-#planbronze {
+
+/* #planbronze {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
@@ -892,7 +893,7 @@ footer p {
             #ffffff 80%,
             #ffde45 84%,
             #452100);
-}
+} */
 
 /* Metal colors here */
 /* Metal colors here */
