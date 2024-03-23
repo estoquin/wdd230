@@ -579,6 +579,21 @@ footer p {
 /* ----- JOIN PAGE ------*/
 /* ----- JOIN PAGE ------*/
 
+#thanksjoin {
+    padding: 1rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+#thanksimg:hover {
+    transform: scale(1);
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(179, 179, 179, 1);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(179, 179, 179, 1);
+    box-shadow: 3px 3px 10px 0px rgba(179, 179, 179, 1);
+    filter: contrast(1);
+}
+
 #join-banner {
     margin: 1rem 1rem -1.1rem 1rem;
     padding: 1rem;
