@@ -930,7 +930,7 @@ footer p {
 
 
 .wf1 input:required {
-    border-left: solid 4px rgb(62, 0, 0);
+    border-left: solid 4px rgb(255, 0, 0);
 }
 
 .wf1 input:required:valid {
