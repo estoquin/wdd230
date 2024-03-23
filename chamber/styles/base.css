@@ -641,6 +641,10 @@ footer p {
     padding-bottom: 1rem;
 }
 
+.plan-price {
+    font-size: 1.5rem;
+}
+
 .plan-phrase {
     padding: 1rem;
     font-style: italic;
@@ -897,14 +901,14 @@ footer p {
 }
 
 .wf1 legend {
-    color: var(--legend-blue);
     padding: 0 .5rem;
+    color: var(--green-hard);
 }
 
 .wf1 label {
     display: block;
     padding-top: 1rem;
-    color: var(--label-red);
+    color: var(--green-hard);
     font-size: .9rem;
 }
 
@@ -914,7 +918,7 @@ footer p {
 .wf1 input[type="password"],
 .wf1 input[type="tel"],
 .wf1 input[type="text"] {
-    background-color: #eee;
+    background-color: #ffffff;
     display: block;
     border: solid 1px #999;
     border-radius: var(--border-five);
@@ -927,7 +931,7 @@ footer p {
 
 
 .wf1 input:required {
-    border-left: solid 4px red;
+    border-left: solid 4px rgb(62, 0, 0);
 }
 
 .wf1 input:required:valid {
