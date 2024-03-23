@@ -187,6 +187,28 @@
     /* Discover */
     /* Discover */
 
+    /* ----- JOIN PAGE ------*/
+    /* ----- JOIN PAGE ------*/
+    /* ----- JOIN PAGE ------*/
+    /* ----- JOIN PAGE ------*/
+
+    /*Layout*/
+    #formmain {
+        display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+    }
+
+    #formplan {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    #formform {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
 }
 
 @media screen and (min-width: 800px) and (max-width: 1024px) {
