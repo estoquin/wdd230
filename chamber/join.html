@@ -101,11 +101,10 @@
                 <legend>Company Information</legend>
                 <label>Business Organization Name: <input required id="orgname" name="orgname" type="text"></label>
                 <label>Business Description: <textarea rows="4" cols="10" id="orgdescription" name="orgdescription"></textarea></label>
-                <input type="hidden" name="timestamp" id="timestamp">
              </fieldset>
              <fieldset>
                 <legend>Chamber Plan</legend>
-                <label for="">Select a plan</label>
+                <label for="selectplan">Select a plan</label>
                 <select name="selectplan" id="selectplan">
                     <option value="">Display options &#9662;</option>
                     <option value="nonprofit">Non-Profit</option>
@@ -114,7 +113,8 @@
                     <option value="gold">Gold Plan</option>
                 </select>
             </fieldset>
-             <input id="joinchamber" type="submit" value="Join Chamber!">
+            <input type="hidden" name="timestamp" id="timestamp">
+            <input id="joinchamber" type="submit" value="Join Chamber!">
         </form>
     </main>
 

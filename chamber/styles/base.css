@@ -666,15 +666,14 @@ footer p {
 }
 
 #planbronze {
-    color: rgba(45, 00, 0, 0.55);
+    color: rgb(0, 0, 0);
   text-decoration: none;
   font-weight: bold;
-  text-shadow: 1px 1px 0 #dea173;
+  text-shadow: 1px 1px 0 #ffffff;
   box-shadow:
-    2px 2px 0.5em rgba(122, 55, 34, 0.55),
-    inset 1px 1px 0 rgba(255, 255, 255, 0.9),
-    inset -1px -1px 0 rgba(0, 0, 0, 0.5)
-  ;
+        2px 2px 0.5em rgba(122, 122, 122, 0.55),
+        inset 1px 1px 0 rgba(255, 255, 255, 0.9),
+        inset -1px -1px 0 rgba(0, 0, 0, 0.34);
   border: 1px solid #dea173;
   background:
   -moz-linear-gradient(
@@ -743,7 +742,7 @@ footer p {
 }
 
 #plansilver {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.72);
     text-decoration: none;
     font-weight: bold;
     text-shadow: 1px 1px 0 #ffffff;
