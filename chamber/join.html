@@ -89,45 +89,23 @@
             </div>
         </div>
         <form id="formform" method="get" action="thankyou.html" class="wf1">
-            <!-- Fields -->
-            <!-- 
-                First name
-                Last name
-                Tittle or position
-                Email
-                Mobile Phone
-                Business organization name
-                Membership Level
-                Business description
-                Timestamp (Hidden)
-                Submit buttom
-             -->
              <fieldset>
                 <legend>Personal Information</legend>
-                <!-- Finished -->
                 <label>First Name: <input required id="fname" name="fname" type="text"></label>
-                <!-- Finished -->
                 <label>Last Name: <input required id="lname" name="lname" type="text"></label>
-                <!-- Finished -->
                 <label>Tittle / Position: <input id="tittle" name="tittle" pattern="[a-zA-Z -]{7,}" title="Alpha characters accepted only, seven letters minimum" type="text"></label>
-                <!-- Finished -->
                 <label>Email: <input placeholder="nicolasabelestoquin@gmail.com" required id="email" name="email" type="email"></label>
-                <!-- Finished -->
                 <label>Mobile Phone: <input required id="phone" name="phone" type="tel"></label>
              </fieldset>
              <fieldset>
                 <legend>Company Information</legend>
-                <!-- Finished -->
                 <label>Business Organization Name: <input required id="orgname" name="orgname" type="text"></label>
-                <!-- Finished -->
                 <label>Business Description: <textarea rows="4" cols="10" id="orgdescription" name="orgdescription"></textarea></label>
-                <!-- Add JS -->
                 <input type="hidden" name="timestamp" id="timestamp">
              </fieldset>
              <fieldset>
                 <legend>Chamber Plan</legend>
-                <!-- Finish This -->
-                <select name="" id="">
+                <select name="selectplan" id="selectplan">
                     <option value="">Select an option &#9662;</option>
                     <option value="nonprofit">Non-Profit</option>
                     <option value="bronze">Bronze Plan</option>
