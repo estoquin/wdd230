@@ -41,8 +41,6 @@ const latitude = -26.82;
 const longitude = -65.22;
 const url = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
 
-
-
 const callw = async () => {
     fetch(url)
     .then(response => response.json())
@@ -65,7 +63,6 @@ const display = (data) => {
 callw()
 
 // JSON Links
-
 async function readjson() {
     fetch('./data/links.json')
     .then(data => {

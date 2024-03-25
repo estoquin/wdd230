@@ -135,10 +135,6 @@ footer p {
     margin: 1rem;
 }
 
-.darkon{
-    /* background-color: #000; */
-}
-
 #dark:hover{
     transform: scale(1.1);
     transition: .2s;
@@ -205,5 +201,3 @@ picture img {
 #current-temp {
     text-transform: capitalize;
 }
-
-/* Dinamic Links */
