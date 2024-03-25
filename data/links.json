@@ -8,7 +8,7 @@
                     "tittle": "Holygray Layout"
                 },
                 {
-                    "url": "week01/holygrail.html",
+                    "url": "https://codepen.io/estoquin/pen/dyLPbJO",
                     "tittle": "JS Codepen"
                 },
                 {
@@ -25,7 +25,7 @@
                     "tittle": "Design Principles"
                 },
                 {
-                    "url": "week02/design.html",
+                    "url": "https://codepen.io/estoquin/pen/rNbOzXp",
                     "tittle": "Responsive Hamburger Menu"
                 },
                 {
@@ -59,7 +59,7 @@
             "week": "Week 04",
             "links": [
                 {
-                    "url": "./week03/bom.html",
+                    "url": "https://codepen.io/estoquin/pen/xxegmjB?editors=1100",
                     "tittle": "CSS Pseudo Classes"
                 },
                 {
@@ -80,7 +80,7 @@
             "week": "Week 05",
             "links": [
                 {
-                    "url": "./week04/form/index.html",
+                    "url": "https://codepen.io/estoquin/pen/XWQgRYo?editors=1100",
                     "tittle": "Pseudo Elements"
                 },
                 {
