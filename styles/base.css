@@ -193,6 +193,17 @@ picture img {
     box-shadow: 2px 2px 10px 0px rgba(168,168,168,1);
 }
 
+#information {
+    text-align: center;
+}
+
 #information p {
     margin: 1rem;
 }
+
+/* Weather */
+#current-temp {
+    text-transform: capitalize;
+}
+
+/* Dinamic Links */

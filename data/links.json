@@ -1,68 +1,106 @@
 {
     "weeks": [
         {
-            "week": "Week 1",
+            "week": "Week 01",
             "links": [
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "week01/holygrail.html",
+                    "tittle": "Holygray Layout"
                 },
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "week01/holygrail.html",
+                    "tittle": "JS Codepen"
+                },
+                {
+                    "tittle": "Media Query",
+                    "url": "week01/media-query.html"
                 }
             ]
         },
         {
-            "week": "Week 2",
+            "week": "Week 02",
             "links": [
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "week02/design.html",
+                    "tittle": "Design Principles"
                 },
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "week02/design.html",
+                    "tittle": "Responsive Hamburger Menu"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "tittle": "DOM Manipulation"
                 }
             ]
         },
         {
-            "week": "Week 3",
+            "week": "Week 03",
             "links": [
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "/week03/images/landscape.webp",
+                    "tittle": "Webp"
                 },
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "/week03/lazyload.html",
+                    "tittle": "Lazy Loading"
+                },
+                {
+                    "url": "./week03/responsive-images.html",
+                    "tittle": "Responsive Images"
+                },
+                {
+                    "url": "./week03/bom.html",
+                    "tittle": "Local Storage"
                 }
             ]
         },
         {
-            "week": "Week 4",
+            "week": "Week 04",
             "links": [
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "./week03/bom.html",
+                    "tittle": "CSS Pseudo Classes"
                 },
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "./week04/images/convinators.webp",
+                    "tittle": "Combinators"
+                },
+                {
+                    "url": "./week04/tablebuild.html",
+                    "tittle": "HTML Tables for Data Presentation"
+                },
+                {
+                    "url": "./week04/form/index.html",
+                    "tittle": "Video Form"
                 }
             ]
         },
         {
-            "week": "Week 5",
+            "week": "Week 05",
             "links": [
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "./week04/form/index.html",
+                    "tittle": "Pseudo Elements"
                 },
                 {
-                    "url": "",
-                    "tittle": ""
+                    "url": "./week05/new-ward-members.json",
+                    "tittle": "JSON"
+                },
+                {
+                    "url": "./week05/prophets.html",
+                    "tittle": "Prophets JSON"
+                },
+                {
+                    "url": "./week05/weather.html",
+                    "tittle": "Weather API"
                 }
+            ]
+        },
+        {
+            "week": "Week 06",
+            "links": [
+
             ]
         }
     ]

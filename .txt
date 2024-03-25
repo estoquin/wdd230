@@ -1,0 +1,27 @@
+1
+Holygray Layout
+JS Codepen
+Media Query
+
+2
+Design Principles
+Responsive Hamburger Menu
+DOM Manipulation
+
+3
+Webp
+Lazy Loading
+Responsive Images
+Local Storage
+
+4
+CSS Pseudo Classes
+Combinators
+HTML Tables for Data Presentation
+Video Form
+
+5
+Pseudo Elements
+JSON
+Prophets JSON
+Weather API
