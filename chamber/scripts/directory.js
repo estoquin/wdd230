@@ -35,7 +35,23 @@ function displayMembers(members) {
 
         const h3 = document.createElement('h3');
         h3.innerHTML = member.name;
+
+        const span = document.createElement('span')
+        if(member.membership_level=='Bronze'){
+            span.innerHTML = '(Bronze Member)'
+            span.classList.add('memberbronze')
+        }
+        if(member.membership_level=='Silver'){
+            span.innerHTML = '(Silver Member)'
+            span.classList.add('membersilver')
+        }
+        if(member.membership_level=='Gold'){
+            span.innerHTML = '(Gold Member)'
+            span.classList.add('membergold')
+        }
+        span.classList.add('membershiptag')
         div.appendChild(h3)
+        div.appendChild(span)
 
         const p = document.createElement('p');
         p.innerHTML = member.description;

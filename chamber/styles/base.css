@@ -1032,3 +1032,27 @@ footer p {
     -moz-box-shadow: 3px 3px 10px 0px rgba(179, 179, 179, 1);
     box-shadow: 3px 3px 10px 0px rgba(179, 179, 179, 1);
 }
+
+#mainarticle section p {
+    color: #474747;
+}
+
+.membershiptag {
+    padding: .5rem;
+    border-radius: 5px;
+}
+
+.membergold {
+    background-color: #FFD700;
+
+}
+
+.membersilver {
+    background-color: #C0C0C0;
+
+}
+
+.memberbronze {
+    background-color: #e19447;
+    color: rgb(0, 0, 0);
+}
