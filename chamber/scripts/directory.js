@@ -1,6 +1,7 @@
 const gridbutton = document.querySelector('#gridbutton');
 const listbutton = document.querySelector('#listbutton');
 const article = document.querySelector('#mainarticle');
+const baseurl = 'https://estoquin.github.io/wdd230/chamber/images/';
 
 gridbutton.addEventListener('click', () => {
     article.classList.add('directorygrid')
@@ -27,7 +28,8 @@ function displayMembers(members) {
         const div = document.createElement('div');
 
         const img = document.createElement('img');
-        img.setAttribute('src', member.image);
+        let url = baseurl + member.image;
+        img.setAttribute('src', url);
         img.setAttribute('alt', member.name);
         section.appendChild(img);
 
