@@ -68,6 +68,7 @@ function displayMembers(members) {
         const a = document.createElement('a');
         a.setAttribute('href', member.website)
         a.setAttribute('alt', member.name);
+        a.setAttribute('target', '_blank');
         a.innerHTML = "Website";
         div.appendChild(a);
 
