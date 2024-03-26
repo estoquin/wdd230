@@ -73,8 +73,6 @@ function displayMembers(members) {
         div.appendChild(a);
 
         div.classList.add('directoryiteminfo');
-
-        // Last
         section.appendChild(div);
         article.appendChild(section);
     })
