@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "Tech Solutions SA",
+        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "phone": "555-1234",
+        "website": "https://www.techsolutions.com",
+        "image":"https://via.placeholder.com/150",
+        "membership_level": "Gold",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "name": "Global Services",
+        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "phone": "555-5678",
+        "website": "https://www.globalservices.com",
+        "image":"https://via.placeholder.com/150",
+        "membership_level": "Silver",
+        "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "name": "Digital Innovations",
+        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "phone": "555-9012",
+        "website": "https://www.digitalinnovations.com",
+        "image":"https://via.placeholder.com/150",
+        "membership_level": "Bronze",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      },
+      {
+        "name": "Smart Solutions",
+        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "phone": "555-3456",
+        "website": "https://www.smartsolutions.com",
+        "image":"https://via.placeholder.com/150",
+        "membership_level": "Gold",
+        "description": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+      },
+      {
+        "name": "Innovative Tech",
+        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "phone": "555-7890",
+        "website": "https://www.innovativetech.com",
+        "image":"https://via.placeholder.com/150",
+        "membership_level": "Silver",
+        "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      },
+      {
+        "name": "Creative Designs",
+        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "phone": "555-2345",
+        "website": "https://www.creativedesigns.com",
+        "image":"https://via.placeholder.com/150",
+        "membership_level": "Bronze",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "name": "Pro Services",
+        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "phone": "555-6789",
+        "website": "https://www.proservices.com",
+        "image":"https://via.placeholder.com/150",
+        "membership_level": "Gold",
+        "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+      }
+    ]
+  }
+  

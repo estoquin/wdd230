@@ -675,12 +675,15 @@ footer p {
 #plangold {
     background-color: #FFD700;
 }
+
 #plansilver {
     background-color: #C0C0C0;
 }
+
 #planbronze {
     background-color: #CD7F32;
 }
+
 /*Alternative Base Plans*/
 /*Alternative Base Plans*/
 /*Alternative Base Plans*/
@@ -970,4 +973,62 @@ footer p {
     transform: scale(1.05);
     transition: .2s;
     cursor: pointer;
+}
+
+/*Directory*/
+
+.directorygrid {
+    margin: 1rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+
+}
+
+.directorygrid section {
+    padding: 20px;
+    text-align: center;
+}
+
+.directorylist {
+    margin: 1rem 1rem;
+}
+
+.directorylist section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.directorylist section .directoryiteminfo {
+    margin-left: 2rem;
+    text-align: start;
+}
+
+#togglesection {
+    display: flex;
+    margin: 0 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(117, 117, 117);
+    border-radius: 5px;
+    width: 70px;
+}
+
+#togglesection img {
+    height: auto;
+    margin-right: 1rem;
+    width: 25px;
+}
+
+#togglesection img:hover {
+    cursor: pointer;
+}
+
+#mainarticle section {
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 10px 0px rgba(179, 179, 179, 1);
+    -moz-box-shadow: 3px 3px 10px 0px rgba(179, 179, 179, 1);
+    box-shadow: 3px 3px 10px 0px rgba(179, 179, 179, 1);
 }

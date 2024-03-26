@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Author - Description -->
+    <meta name="description" content="San Miguel Chamber of Commerce">
+    <meta name="author" content="Nicolas Estoquin">
+
+    <!-- Tittle - Links -->
+    <title>San Miguel Chamber of Commerce</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- Meta OG -->
+    <meta property="og:type" content="website"/>
+    <meta property="og:title" content="San Miguel Chamber of Commerce"/>
+    <meta property="og:url" content="https://estoquin.github.io/wdd230/chamber"/>
+    <meta property="og:image"
+        content="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.norte.com%2Fciudad-historica-de-san-miguel-de-tucuman%2F&psig=AOvVaw18T8uysFGDnFNTjkujQiEj&ust=1710006945536000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCNCYo7ae5YQDFQAAAAAdAAAAABAR"/>
+    <meta property="og:description" content="The place where San Miguel is improved, developed, and enjoyed">
+</head>
+<body>
+    
+   <!-- Header - Nav - Hero (Required All) -->
+    <header>
+        <nav class="">
+            <div>
+                <a id="logolink" href="/wdd230/chamber/index.html">
+                    <img id="logo1" src="./images/chamber-logo.png" alt="logo">
+                </a>
+            </div>
+            <button id="menu"></button>
+            <div class="" id="navlinks">
+                <a class="navlink" href="/wdd230/chamber/index.html">Home</a>
+                <a class="navlink" href="/wdd230/chamber/discover.html">Discover</a>
+                <a class="navlink" href="">Directory</a>
+                <a class="navlink" href="/wdd230/chamber/join.html">Join us</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Introbanner -->
+    <div id="discoverbanner">
+        <h1 id="discovertittle">Directory</h1>
+        <img id="discoverimg" src="./images/discoverbanner.webp" alt="">
+    </div>
+
+    <div id="togglesection">
+        <div id="gridbutton">
+            <img src="./images/grid.webp" alt="Grid">
+        </div>
+        <div id="listbutton">
+            <img src="./images/list.webp" alt="List">
+        </div>
+    </div>
+	<article id="mainarticle" class="directorylist">
+        <!-- JS -->
+    </article>
+
+    <!-- Footer -->
+    <footer>
+        <div id="footerin">
+            <div id="footerimg">
+                <img src="./images/chamber-logo.png" alt="">
+                <div id="footeraddress">
+                    <p>Crisostomo Alvarez 334</p>
+                    <p>Tucuman, Argentina</p>
+                    <p>smchamber@chamber.com</p>
+                    <p>+5438169055</p>
+                </div>
+            </div>
+            <div id="footerlinks">
+                <a href="">Directory</a>
+                <a href="">Discover</a>
+                <a href="">Join Us</a>
+            </div>
+        </div>
+        <hr id="hrfooter">
+        <p>&copy; <span id="year"></span> Nicolas Estoquin, Argentina</p>
+        <p>WDD Project</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="./scripts/directory.js"></script>
+    <script src="./scripts/getDate.js"></script>
+    <script src="./scripts/menu.js"></script>
+</body>
+</html>
