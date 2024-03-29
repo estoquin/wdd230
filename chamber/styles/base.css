@@ -976,7 +976,9 @@ footer p {
 }
 
 /*Directory*/
-
+#chamberarticleheader {
+    margin-left: 1rem;
+}
 .directorygrid {
     margin: 1rem 1rem;
     display: grid;
