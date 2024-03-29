@@ -1075,8 +1075,6 @@ footer p {
     border-radius: 0px !important;
 }
 .directorylistsimple section .directoryiteminfo{
-    /* margin: 1rem; */
-    /* background-color: orange; */
     display: grid !important;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
@@ -1095,23 +1093,20 @@ footer p {
 } 
 
 .directorylistsimple .sectiontittle {
-    /* background-color: red; */
     grid-area: 1 / 1 / 2 / 2;
 }
 
 .directorylistsimple .sectiondir {
-    /* background-color: green; */
     grid-area: 1 / 2 / 2 / 3; 
 }
 
 .directorylistsimple .sectionphone {
-    /* background-color: yellow; */
     grid-area: 1 / 3 / 2 / 4;
 }
 
 .directorylistsimple .sectionweblink {
-    /* background-color: blue; */
     grid-area: 1 / 4 / 2 / 5;
+    padding: 0 20px;
 }
 
 .directorylistsimple img,
