@@ -31,7 +31,6 @@ hamButton.addEventListener('click', () => {
 
 // 49.76046863531079, 6.643955213589132
 const currentTepm = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
 // https://openweathermap.org/current
@@ -53,11 +52,14 @@ const callw = async () => {
 }
 
 const display = (data) => {
+    const figure = document.querySelector('#weather-icon-figure');
+    const weatherIcon = document.createElement('img');
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     currentTepm.innerHTML = `${desc} - ${data.main.temp}&deg;F `;
+    figure.appendChild(weatherIcon);
 }
 
 callw()
