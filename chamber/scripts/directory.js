@@ -1,16 +1,26 @@
 const gridbutton = document.querySelector('#gridbutton');
 const listbutton = document.querySelector('#listbutton');
+const listsimplebutton = document.querySelector('#listsimplebutton');
+
 const article = document.querySelector('#mainarticle');
 const baseurl = 'https://estoquin.github.io/wdd230/chamber/images/';
 
 gridbutton.addEventListener('click', () => {
     article.classList.add('directorygrid')
     article.classList.remove('directorylist')
+    article.classList.remove('directorylistsimple')
 })
 
 listbutton.addEventListener('click', () => {
     article.classList.add('directorylist')
     article.classList.remove('directorygrid')
+    article.classList.remove('directorylistsimple')
+})
+
+listsimplebutton.addEventListener('click', () => {
+    article.classList.add('directorylistsimple')
+    article.classList.remove('directorygrid')
+    article.classList.remove('directorylist')
 })
 
 async function readmembers() {
@@ -34,6 +44,7 @@ function displayMembers(members) {
         section.appendChild(img);
 
         const h3 = document.createElement('h3');
+        h3.classList.add('sectiontittle');
         h3.innerHTML = member.name;
 
         const span = document.createElement('span')
@@ -54,14 +65,17 @@ function displayMembers(members) {
         div.appendChild(span)
 
         const p = document.createElement('p');
+        p.setAttribute('class', 'sectiondescription');
         p.innerHTML = member.description;
         div.appendChild(p);
 
         const pdir = document.createElement('p');
+        pdir.classList.add('sectiondir')
         pdir.innerHTML = member.address;
         div.appendChild(pdir);
 
         const pp = document.createElement('p');
+        pp.classList.add('sectionphone');
         pp.innerHTML = member.phone;
         div.appendChild(pp);
 
@@ -69,7 +83,8 @@ function displayMembers(members) {
         a.setAttribute('href', member.website)
         a.setAttribute('alt', member.name);
         a.setAttribute('target', '_blank');
-        a.innerHTML = "Website";
+        a.classList.add('sectionweblink');
+        a.innerHTML = member.website;
         div.appendChild(a);
 
         div.classList.add('directoryiteminfo');

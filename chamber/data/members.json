@@ -2,7 +2,7 @@
     "members": [
       {
         "name": "Tech Solutions SA",
-        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "address": "Av. Belgrano 2138 1ro A",
         "phone": "555-1234",
         "website": "https://www.techsolutions.com",
         "image":"TS.webp",
@@ -11,7 +11,7 @@
       },
       {
         "name": "Global Services",
-        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "address": "Lamadrid 1758 2do A",
         "phone": "555-5678",
         "website": "https://www.globalservices.com",
         "image":"G.webp",
@@ -20,7 +20,7 @@
       },
       {
         "name": "Digital Innovations",
-        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "address": "Belisario Roldan 520",
         "phone": "555-9012",
         "website": "https://www.digitalinnovations.com",
         "image":"Digital-Innovations.webp",
@@ -29,7 +29,7 @@
       },
       {
         "name": "Smart Solutions",
-        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "address": "Pje. Virrey Ceballos 1360",
         "phone": "555-3456",
         "website": "https://www.smartsolutions.com",
         "image":"Smart Solutions.webp",
@@ -38,7 +38,7 @@
       },
       {
         "name": "Innovative Tech",
-        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "address": "Av.Jujuy 1995",
         "phone": "555-7890",
         "website": "https://www.innovativetech.com",
         "image":"Itech.webp",
@@ -47,7 +47,7 @@
       },
       {
         "name": "Creative Designs",
-        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "address": "Av. Bulnes 1358",
         "phone": "555-2345",
         "website": "https://www.creativedesigns.com",
         "image":"Creative.webp",
@@ -56,7 +56,7 @@
       },
       {
         "name": "Pro Services",
-        "address": "San Miguel de Tucumán, Tucumán, Argentina",
+        "address": "Gral. Jose C. Paz 920",
         "phone": "555-6789",
         "website": "https://www.proservices.com",
         "image":"Pro.webp",
