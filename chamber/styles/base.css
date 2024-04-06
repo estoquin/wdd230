@@ -1138,3 +1138,36 @@ footer p {
 #spothr {
     margin: 0rem 2rem;
 }
+#spotwrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.spotgold {
+    background-color: #FFD700;
+}
+.spotsilver {
+    background-color: #C0C0C0;
+}
+.spottittle {
+    margin: 0 0 1.5rem 0;
+    padding: 1rem;
+
+}
+.spotmember {
+    margin: 2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-bottom: 1rem;
+}
+
+.spotimg {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.spotdescription {
+    padding: 1rem;
+}

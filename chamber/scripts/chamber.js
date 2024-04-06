@@ -19,12 +19,41 @@ if ((currentDay >= 1 && currentDay <= 3) || (showdebug)) {
 /* JSON */
 /* JSON */
 
+function showspoth(data){
+    let spotwrapper = document.querySelector('#spotwrap')
+    data.forEach(member => {
+        let memberdiv = document.createElement('div');
+        memberdiv.classList.add('spotmember')
+
+        let img = document.createElement('img');
+        img.setAttribute('src', 'https://estoquin.github.io/wdd230/chamber/images/' + member.image)
+        img.setAttribute('alt', member.name)
+        img.classList.add('spotimg')
+
+        let ptitle = document.createElement('p');
+        ptitle.innerHTML = member.name.toUpperCase();
+        ptitle.classList.add('spottittle');
+        if(member.membership_level == 'Gold') {
+            ptitle.classList.add('spotgold')
+        }
+        if(member.membership_level == 'Silver'){
+            ptitle.classList.add('spotsilver')
+        }
+
+        let pdescription = document.createElement('p');
+        pdescription.innerHTML = member.description;
+        pdescription.classList.add('spotdescription')
+
+        memberdiv.appendChild(ptitle);
+        memberdiv.appendChild(img)
+        memberdiv.appendChild(pdescription);
+        spotwrapper.appendChild(memberdiv)
+    });
+}
 
 function selectmembers(data) {
     const shuffledList = data.sort(() => Math.random() - 0.5);
-    shuffledList.slice(0, 2).forEach(member => {
-      console.log(member)  
-    })
+    showspoth(shuffledList.slice(0, 2))
 }
 
 async function getjson() {
