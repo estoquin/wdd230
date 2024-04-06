@@ -1116,3 +1116,25 @@ footer p {
 .directorylistsimple .sectiondescription {
     display: none;
 }
+
+/* Add banner */
+.addbanner {
+    background-color: blue;
+}
+.addbanner p {
+    margin: 0;
+}
+.addbanner-display {
+    display: block;
+}
+.addbanner-hide {
+    display: none;
+}
+
+/* Home Spotligth */
+#chamberspot {
+    text-align: center;
+}
+#spothr {
+    margin: 0rem 2rem;
+}
