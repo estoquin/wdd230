@@ -46,6 +46,11 @@ nav {
     z-index: 2;
 }
 
+.navselected {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 #navlinks {
     margin-right: 2rem;
     display: none;
