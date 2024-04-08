@@ -49,6 +49,7 @@ nav {
 .navselected {
     text-decoration: underline;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
 #navlinks {
